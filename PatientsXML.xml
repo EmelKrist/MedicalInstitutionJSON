@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patients xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"> 
+	
+	<patient>
+		<ID>1</ID>
+		<name>Fedorova Maria Alexandrovna</name>
+		<birth>06.06.1998</birth>
+		<policy>6190665912678251</policy>
+	</patient>
+	<patient>
+		<ID>2</ID>
+		<name>Smirnov Evgenii Ivanovich</name>
+		<birth>12.09.1982</birth>
+		<policy>1238649245015825</policy>
+	</patient>	
+	<patient>
+		<ID>3</ID>
+		<name>Kalinina Irina Mirolybovna</name>
+		<birth>01.03.1997</birth>
+		<policy>4678797267465746</policy>
+	</patient>
+	<patient>
+		<ID>4</ID>
+		<name>Smirnova Elena Vladimirovna</name>
+		<birth>15.04.1987</birth>
+		<policy>2718462346464663</policy>
+	</patient>
+	<patient>
+		<ID>5</ID>
+		<name>Alexeev Michail Alexandrovich</name>
+		<birth>16.07.1994</birth>
+		<policy>3274625624228912</policy>
+	</patient>
+	<patient>
+		<ID>6</ID>
+		<name>Volkova Galina Alexeevna</name>
+		<birth>09.09.1991</birth>
+		<policy>2948790764452688</policy>
+	</patient>
+	<patient>
+		<ID>7</ID>
+		<name>Vasiliev Ivan Ivanovich</name>
+		<birth>14.06.1897</birth>
+		<policy>9796126356728272</policy>
+	</patient>
+	<patient>
+		<ID>8</ID>
+		<name>Egorov Matvei Kirillovich</name>
+		<birth>16.07.2001</birth>
+		<policy>4247663267426326</policy>
+	</patient>
+	<patient>
+		<ID>9</ID>
+		<name>Kiseleva Marina Evgenevna</name>
+		<birth>21.10.1989</birth>
+		<policy>6432746892364723</policy>
+	</patient>
+	<patient>
+		<ID>10</ID>
+		<name>Tarasov Egor Vladimirovich</name>
+		<birth>12.09.1992</birth>
+		<policy>2734243876678342</policy>
+	</patient>
+</patients>

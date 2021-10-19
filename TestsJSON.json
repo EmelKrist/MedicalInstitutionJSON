@@ -1,0 +1,15 @@
+{"tests": [
+	
+	{"Patient_ID" : "1", "date" : "12.07.2021", "type" : "lgG","precision" : "quantitative","lab" : "23","result" : "positive"},
+	{"Patient_ID" : "2", "date" : "12.05.2020", "type" : "lgG","precision" : "qualitative","lab" : "2","result" : "negative"},
+	{"Patient_ID" : "2", "date" : "08.12.2020", "type" : "lgG","precision" : "qualitative","lab" : "13","result" : "positive"},
+	{"Patient_ID" : "3", "date" : "13.07.2019", "type" : "lgM","precision" : "quantitative","lab" : "18","result" : "positive"},
+	{"Patient_ID" : "4", "date" : "19.08.2021", "type" : "lgG","precision" : "qualitative","lab" : "1","result" : "negative"},
+	{"Patient_ID" : "5", "date" : "29.01.2020", "type" : "lgG","precision" : "qualitative","lab" : "12","result" : "negative"},
+	{"Patient_ID" : "6", "date" : "09.12.2021", "type" : "lgM","precision" : "quantitative","lab" : "3","result" : "positive"},
+	{"Patient_ID" : "7", "date" : "28.11.2020", "type" : "lgM","precision" : "quantitative","lab" : "1","result" : "negative"},
+	{"Patient_ID" : "8", "date" : "10.10.2021", "type" : "lgG","precision" : "qualitative","lab" : "24","result" : "negative"},
+	{"Patient_ID" : "9", "date" : "12.03.2019", "type" : "lgM","precision" : "qualitative","lab" : "3","result" : "positive"},
+	{"Patient_ID" : "10", "date" : "13.08.2020", "type" : "lgG","precision" : "quantitative","lab" : "13","result" : "negative"}
+	
+]}

@@ -1,0 +1,81 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Main",
+    "definitions": {
+        "Main": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "tests": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Test"
+                    }
+                }
+            },
+            "required": [
+                "tests"
+            ],
+            "title": "Main"
+        },
+        "Test": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Patient_ID": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "date": {
+                    "type": "string"
+                },
+                "type": {
+                    "$ref": "#/definitions/Type"
+                },
+                "precision": {
+                    "$ref": "#/definitions/Precision"
+                },
+                "lab": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "result": {
+                    "$ref": "#/definitions/Result"
+                }
+            },
+            "required": [
+                "Patient_ID",
+                "date",
+                "lab",
+                "precision",
+                "result",
+                "type"
+            ],
+            "title": "Test"
+        },
+        "Precision": {
+            "type": "string",
+            "enum": [
+                "quantitative",
+                "qualitative"
+            ],
+            "title": "Precision"
+        },
+        "Result": {
+            "type": "string",
+            "enum": [
+                "positive",
+                "negative"
+            ],
+            "title": "Result"
+        },
+        "Type": {
+            "type": "string",
+            "enum": [
+                "lgG",
+                "lgM"
+            ],
+            "title": "Type"
+        }
+    }
+}

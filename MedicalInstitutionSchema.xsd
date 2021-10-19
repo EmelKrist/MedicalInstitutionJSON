@@ -1,0 +1,104 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Main",
+    "definitions": {
+        "Main": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "patients": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Patient"
+                    }
+                }
+            },
+            "required": [
+                "patients"
+            ],
+            "title": "Main"
+        },
+        "Patient": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "birth": {
+                    "type": "string"
+                },
+                "policy": {
+                    "type": "string"
+                },
+                "tests": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Test"
+                    }
+                }
+            },
+            "required": [
+                "birth",
+                "name",
+                "policy",
+                "tests"
+            ],
+            "title": "Patient"
+        },
+        "Test": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "date": {
+                    "type": "string"
+                },
+                "type": {
+                    "$ref": "#/definitions/Type"
+                },
+                "precision": {
+                    "$ref": "#/definitions/Precision"
+                },
+                "lab": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "result": {
+                    "$ref": "#/definitions/Result"
+                }
+            },
+            "required": [
+                "date",
+                "lab",
+                "precision",
+                "result",
+                "type"
+            ],
+            "title": "Test"
+        },
+        "Precision": {
+            "type": "string",
+            "enum": [
+                "quantitative",
+                "qualitative"
+            ],
+            "title": "Precision"
+        },
+        "Result": {
+            "type": "string",
+            "enum": [
+                "positive",
+                "negative"
+            ],
+            "title": "Result"
+        },
+        "Type": {
+            "type": "string",
+            "enum": [
+                "lgG",
+                "lgM"
+            ],
+            "title": "Type"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{"patients": [
+	
+	{ "name":"Fedorova Maria Alexandrovna",
+		"birth":"06.06.1998",
+		"policy":"6190665912678251",
+		"tests": [
+			{"date" : "12.07.2021", "type" : "lgG","precision" : "quantitative","lab" : "23","result" : "positive"}		  
+		]
+		
+	},	
+	
+	{ "name":"Smirnov Evgenii Ivanovich",
+		"birth":"12.09.1982",
+		"policy":"1238649245015825",
+		"tests": [
+			{"date" : "12.05.2020", "type" : "lgG","precision" : "qualitative","lab" : "2","result" : "negative"},
+			{"date" : "08.12.2020", "type" : "lgG","precision" : "qualitative","lab" : "13","result" : "positive"}
+		]
+		
+	},	
+	
+	{ "name":"Kalinina Irina Mirolybovna",
+		"birth":"01.03.1997",
+		"policy":"4678797267465746",
+		"tests": [
+			{"date" : "13.07.2019", "type" : "lgM","precision" : "quantitative","lab" : "18","result" : "positive"}	
+		]
+		
+	},	
+	
+	{ "name":"Smirnova Elena Vladimirovna",
+		"birth":"15.04.1987",
+		"policy":"2718462346464663",
+		"tests": [
+			{"date" : "19.08.2021", "type" : "lgG","precision" : "qualitative","lab" : "1","result" : "negative"}	
+		]
+		
+	},	
+	
+	{ "name":"Alexeev Michail Alexandrovich",
+		"birth":"16.07.1994",
+		"policy":"3274625624228912",
+		"tests": [
+			{"date" : "29.01.2020", "type" : "lgG","precision" : "qualitative","lab" : "12","result" : "negative"}	
+		]
+		
+	},
+	
+	{ "name":"Volkova Galina Alexeevna",
+		"birth":"09.09.1991",
+		"policy":"2948790764452688",
+		"tests": [
+			{"date" : "09.12.2021", "type" : "lgM","precision" : "quantitative","lab" : "3","result" : "positive"}	
+		]
+		
+	},	
+	
+	{ "name":"Vasiliev Ivan Ivanovich",
+		"birth":"14.06.1897",
+		"policy":"9796126356728272",
+		"tests": [
+			{"date" : "28.11.2020", "type" : "lgM","precision" : "quantitative","lab" : "1","result" : "negative"}
+		]
+		
+	},	
+	
+	{ "name":"Egorov Matvei Kirillovich",
+		"birth":"16.07.2001",
+		"policy":"4247663267426326",
+		"tests": [
+			{"date" : "10.10.2021", "type" : "lgG","precision" : "qualitative","lab" : "24","result" : "negative"}	
+		]
+		
+	},	
+	
+	{ "name":"Kiseleva Marina Evgenevna",
+		"birth":"21.10.1989",
+		"policy":"6432746892364723",
+		"tests": [
+			{"date" : "12.03.2019", "type" : "lgM","precision" : "qualitative","lab" : "3","result" : "positive"}	
+		]
+		
+	},	
+	
+	{ "name":"Tarasov Egor Vladimirovich",
+		"birth":"12.09.1992",
+		"policy":"2734243876678342",
+		"tests": [
+			{"date" : "13.08.2020", "type" : "lgG","precision" : "quantitative","lab" : "13","result" : "negative"}	
+		]
+		
+	}	
+	
+]}

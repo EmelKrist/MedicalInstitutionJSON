@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:element name="patients">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="patient" type="Patient" minOccurs="10" maxOccurs="unbounded" />           
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:complexType name="Patient">
+		<xsd:sequence>
+		    <xsd:element name="ID" type="xsd:positiveInteger" />
+			<xsd:element name="name" type="xsd:string" />
+			<xsd:element name="birth" type="xsd:string" />
+			<xsd:element name="policy" type="xsd:positiveInteger" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+</xsd:schema>	

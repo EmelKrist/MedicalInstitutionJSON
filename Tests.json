@@ -1,0 +1,4 @@
+[
+	{"Patient_ID":12,"date":"10.10.2021","type":"lgM","precision":"quantitative","lab":"12","result":"positive"},
+	{"Patient_ID":13,"date":"19.07.2020","type":"lgG","precision":"quantitative","lab":"7","result":"negative"}
+]
